@@ -1,5 +1,4 @@
 import { trckImage, networkInterceptor, fms } from "@/public/assets";
-import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -18,9 +17,9 @@ const Projects = () => {
             // target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={trckImage}
+                src={typeof trckImage === "string" ? trckImage : trckImage.src}
                 alt="trckImage"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -84,9 +83,9 @@ const Projects = () => {
             // target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={networkInterceptor}
+                src={typeof networkInterceptor === "string" ? networkInterceptor : networkInterceptor.src}
                 alt="networkInterceptor"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -147,9 +146,9 @@ const Projects = () => {
             // target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={fms}
+                src={typeof fms === "string" ? fms : fms.src}
                 alt="fms"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
