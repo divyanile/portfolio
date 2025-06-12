@@ -13,7 +13,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
+            Hello! My name is Divya Nile and I enjoy creating things that
             live on the internet. My interest in web development started back in
             2012 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML &
@@ -21,20 +21,18 @@ const About = () => {
           </p>
           <p>
             Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
+            service based company, a start-up,{" "}
             <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
+              a huge growth, and filled with opportunities to learn latest technologies.
             </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
+            From the experience i am known for high productivity and efficient task completion. 
+            Specializing in{" "}
             <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
+              system design optimization, data analysis, and network security management.
             </span>
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+            Excel at problem-solving, teamwork, and effective communication to navigate complex projects and deliver results.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -42,7 +40,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              Angular
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -60,7 +58,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Node.js
+              AWS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -72,13 +70,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Express.js
+              Docker
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              MongoDB
+              MySQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

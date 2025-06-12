@@ -9,7 +9,7 @@ const Archive = () => {
     <div className="max-w-contentContainer mx-auto px-4 py-24">
       <div className="w-full flex flex-col items-center">
         <h2 className="text-3xl font-titleFont font-semibold">
-          Other Noteworthy Projects
+          Personal Projects
         </h2>
         <p className="text-sm font-titleFont text-textGreen">
           view the archive
@@ -17,49 +17,49 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Educare Engligh Learning Academy"
+          title="Vue Blog"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          listItem={["Vuejs", "Tailwind CSS"]}
+          link="https://github.com/divyanile/Vue-blog"
         />
         <ArchiveCard
-          title="Cyber Security Blog with live comments section"
+          title="Sentiment Analysis"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          listItem={["Python", "Django"]}
+          link="https://github.com/divyanile/Sentiment-Analysis"
         />
         <ArchiveCard
-          title="ReactBD web development company"
+          title="Automated Toll Gate System"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          listItem={["HTML", "Tailwind CSS", "JavaScript"]}
+          link="https://github.com/divyanile/Automted-Toll-Gate-System"
         />
-        <ArchiveCard
+        {/* <ArchiveCard
           title="Amazon Clone with login, cart-option and payment intrigation."
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://amazonclone.reactbd.com/"
-        />
-        <ArchiveCard
+        /> */}
+        {/* <ArchiveCard
           title="JSON data (example data api for test projects)"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
               laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Nextjs", "Tailwind CSS", "next-router"]}
           link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
+        /> */}
+        {/* <ArchiveCard
           title="Dynamic Responsive Portfolio"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://portfolioone.reactbd.com/"
-        />
+        /> */}
 
-        {showMore && (
+        {/* {showMore && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
@@ -179,9 +179,9 @@ const Archive = () => {
               />
             </motion.div>
           </>
-        )}
+        )} */}
       </div>
-      <div className="mt-12 flex items-center justify-center">
+      {/* <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}
@@ -197,7 +197,7 @@ const Archive = () => {
             Show More
           </button>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };
