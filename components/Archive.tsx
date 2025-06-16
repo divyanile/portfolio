@@ -18,22 +18,22 @@ const Archive = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
           title="Vue Blog"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
+          des=" A lightweight blog platform built with Vue.js that allows users to write, edit, read, and view blog posts with a clean and responsive interface.
+          It features a user-friendly design, making it easy for users to navigate and interact with the blog content."
           listItem={["Vuejs", "Tailwind CSS"]}
           link="https://github.com/divyanile/Vue-blog"
         />
         <ArchiveCard
           title="Sentiment Analysis"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
+          des="This project implements sentiment analysis using natural language processing (NLP) techniques to analyze textual data — 
+          such as product reviews, social media posts, or customer feedback — and classify their emotional tone."
           listItem={["Python", "Django"]}
           link="https://github.com/divyanile/Sentiment-Analysis"
         />
         <ArchiveCard
           title="Automated Toll Gate System"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
+          des=" Automatic license plate detection has the ability to recognizing the number plates of any vehicle with the help of an image, 
+          provided by video surveillance cameras."
           listItem={["HTML", "Tailwind CSS", "JavaScript"]}
           link="https://github.com/divyanile/Automted-Toll-Gate-System"
         />
